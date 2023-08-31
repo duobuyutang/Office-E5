@@ -37,7 +37,7 @@ jobs:
         tail run.log   
     - name: Commit log
       env:
-        NAME: sakanaction
+        NAME: Nightfish
         EMAIL: sakanaction@tqlms365.onmicrosoft.com
       run: |
         git config --global user.name "$NAME"
